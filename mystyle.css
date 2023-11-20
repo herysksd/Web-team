@@ -1,0 +1,245 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: teko;
+	background-color: #F9E0BB;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.navbar{
+	width: 1216px;
+	background-color: #d9bf9d;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.logo{
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+	padding: 10px 0px;
+}
+
+.logo{
+	margin: 5px;
+}
+
+.nav-menu{
+	width: 40%;
+	align-items: center;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	font-family: montserrat;
+
+}
+
+.nav-menu li a {
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+.nav-menu li a:hover {
+	font-size: 20px;
+	color: black;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+
+.foto{
+	background-image: url(foto/home1.jpg);
+	width: 1216px;
+	height: 500px;
+	background-size: cover;
+	background-position-y: -150px;
+	font-family: dm serif display;
+	text-align: right;
+	padding: 70px;
+	color: #F0DAAE;
+}
+
+.text{
+	text-align: right;
+	text-shadow: 2px 2px black;
+	font-size: 50px;
+	color: #d1c7bd;
+}
+
+.ordernow{
+	margin-top: 20px;
+}
+
+button{
+	background: #d9bf9d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+
+button:hover{
+	background: transparent;
+	color: 2px solid #d9bf9d;
+	cursor: pointer;
+}
+
+.menu{
+	background-size: cover;
+	width: 100%;
+	height: 400px; 
+	display: flex;
+	justify-content: space-around;
+	margin-top: 150px;
+}
+
+.menu .menu1 .fotomenu{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	margin-top: -30px;
+}
+
+.border{
+	background-image: url(foto/border.jpg);
+	background-size: cover;
+	width: 1216px;
+	height: 50px;
+}
+
+.text2{
+	font-size: 40px;
+	text-align: center;
+	font-family: Montserrat;
+	color: #FAE7C9;
+}
+
+.border1{
+	background-image: url(foto/border.jpg);
+	background-size: cover;
+	width: 1216px;
+	height: 50px;
+}
+
+.text3{
+	font-size: 40px;
+	text-align: center;
+	font-family: Montserrat;
+	color: #FAE7C9;
+}
+
+.food{
+	color: black;
+	font-size: 25px;
+	font-family: Teko;
+	width: 20%;
+}
+
+.harga{
+	color: black;
+	font-size: 25px;
+	font-family: Teko;
+	width: 30%;
+}
+
+.list{
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+	background-size: cover;
+	width: 1215px;
+	height: 530px; 
+}
+
+.drink{
+	color: black;
+	font-size: 25px;
+	font-family: Teko;
+	width: 16%;
+}
+
+.harga1{
+	color: black;
+	font-size: 25px;
+	font-family: Teko;
+	width: -8%;
+}
+
+.border2{
+	background-image: url(foto/border.jpg);
+	background-size: cover;
+	width: 1216px;
+	height: 50px;
+}
+
+.text4{
+	font-size: 40px;
+	text-align: center;
+	font-family: Montserrat;
+	color: #FAE7C9;
+}
+
+.tentangkami{
+	background-size: cover;
+	width: 100%;
+	height: 400px; 
+	display: flex;
+	justify-content: space-around;
+}
+
+.video{
+	margin-top: 100px;
+	padding-left: 50px;
+	padding-right: 20px;
+}
+
+.text5{
+	margin-top: 100px;
+	padding-right: 40px;
+	font-size: 20px;
+	font-family: Josefin sans;
+	text-align:revert;
+}
+
+.border3{
+	margin-top: 150px;
+	background-image: url(foto/border.jpg);
+	background-size: cover;
+	width: 1216px;
+	height: 50px;
+}
+
+.text6{
+	font-size: 40px;
+	text-align: center;
+	font-family: Montserrat;
+	color: #FAE7C9;
+}
+
+.alamat{
+	margin-top: 50px;
+	padding-left: 350px;
+}
+
+.textalamat{
+	margin-top: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.border4{
+	margin-top: 70px;
+	background-image: url(foto/border.jpg);
+	background-size: cover;
+	width: 1216px;
+	height: 50px;
